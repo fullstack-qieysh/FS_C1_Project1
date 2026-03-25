@@ -33,14 +33,14 @@ if(isset($_POST['login'])){
                 <ion-icon name="person"></ion-icon>
             </span>
             <input type="text" name="username" required>
-            <label>Username</label>
+            <label>Username kau lah</label>
         </div>
         <div class="input-box">
             <span class="icon">
                 <ion-icon name="lock-closed"></ion-icon>
             </span>
             <input type="password" name="password" required>
-            <label>Password</label>
+            <label>Password kau</label>
         </div>
         <p style="color:red; text-align:center"> <?php echo $error; ?> </p>
         <button type="submit" name="login">Login</button>
